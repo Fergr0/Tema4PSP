@@ -1,13 +1,12 @@
-package com.example.Actividad4_2;
+package com.example.Actividad4_1;
 
-import org.apache.commons.net.PrintCommandListener;
-import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;
-import org.apache.commons.net.ftp.FTPReply;
 import org.apache.commons.net.ftp.FTPSClient;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+
+//Esta clase se encarga de conectarrse a mi serrvidor FTP en local mediante FTPS
+// para asi poderr visualizar el directorio y archivos de un usuario dentro del servidor
 
 public class ClienteFTP {
     public static void main(String[] args) throws IOException {
