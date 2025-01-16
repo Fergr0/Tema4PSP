@@ -24,5 +24,6 @@ public class ClienteFTP {
 
         cliente.disconnect();
         System.out.println("Conexión finalizada");
+        //prueba
     }
 }
