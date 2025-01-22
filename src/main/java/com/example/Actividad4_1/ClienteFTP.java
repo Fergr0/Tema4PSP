@@ -14,7 +14,7 @@ public class ClienteFTP {
         String servFTP = "192.168.1.125";
         System.out.println("Nos conectamos a: " + servFTP);
         String usuario ="fer";
-        String clave ="2001";
+        String clave ="fer";
 //        String servFTP = "ftp.rediris.es";
 //        System.out.println("Nos conectamos a: " + servFTP);
 //        String usuario ="anonymus";
