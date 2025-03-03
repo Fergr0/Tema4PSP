@@ -86,8 +86,8 @@ public class Actividad4_6 {
     private static void enviarCorreo(String username, String recipient, String logContent) {
         final String smtpHost = "smtp.gmail.com";
         final int smtpPort = 587;
-        final String smtpUser = "tu_correo@gmail.com"; // Cambiar por tu correo
-        final String smtpPassword = "tu_contraseña";   // Cambiar por tu contraseña o contraseña de aplicación
+        final String smtpUser = "fergr01bbx@gmail.com";
+        final String smtpPassword = "dzisrybwfrdmnbsj";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
